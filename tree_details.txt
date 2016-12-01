@@ -1,0 +1,11 @@
+#
+# Tree testing for xroads. A MULTI-Way tree (see notes below)
+# by: brandi volpe
+# 11-30-16
+#
+
+# Multi-way tree. Children nodes can have any number of children.
+# ?? Implement an array of object references for each node ??
+#
+# Key consideration: how to keep tree balanced? 
+#      use red-black tree or AVL?
