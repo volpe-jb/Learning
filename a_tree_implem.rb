@@ -26,6 +26,29 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#----------------------------------------------------------------------
+#Example usage
+#tree = Tree.new
+
+#tree.appendNode(nil, "Harry") # build tree
+#tree.appendNode(ROOT, "Jane")
+#tree.appendNode(ROOT, "Bill")
+#tree.appendNode(1, "Joe")
+#tree.appendNode(1, "Diane")
+#tree.appendNode(4, "George")
+#tree.appendNode(4, "Mary")
+#tree.appendNode(5, "Jill")
+#tree.appendNode(7, "Carol")
+#tree.appendNode(2, "Grace")
+#tree.appendNode(1, "Mark")
+
+#tree.list
+#tree.show()
+#puts tree.whoAmI?
+#tree.expandDown(0, Tree::WIDTH) { | node | puts node }
+#puts tree.nodes
+#----------------------------------------------------------------------
+
 module Debug
     def whoAmI?
         "#{self.class.name} (##{self.object_id}): #{self.to_s}"
