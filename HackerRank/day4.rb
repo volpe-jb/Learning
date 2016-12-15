@@ -2,7 +2,7 @@ class Person
     attr_accessor :age
     def initialize(initialAge)
         if
-          initialAge !<= 0
+          initialAge > 0
           age = initialAge
         else
           puts 'Age is not valid, setting age to 0.'
